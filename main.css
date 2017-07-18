@@ -1,0 +1,161 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #BDBDBD;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.text {
+    padding-top: 15%;
+    padding-left: 12%;
+}
+
+h1 {
+    font-family: 'Allerta Stencil', sans-serif;
+    margin: 0 0 0 0;
+    font-size: 55px;
+    width: 35%;
+}
+
+h3 {
+    margin: 0 0 0 0;
+    font-size: 30px;
+    width: 30%;
+}
+
+h4 {
+    display: block;
+    margin-top: 1.33em;
+    margin-bottom: 1.33em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    font-size: 28px;
+    color: #ffffff;
+    z-index: 2;
+    position: relative;
+    padding: 35px 10px 30px 20px;
+}
+
+.container {
+    display: inline-block;
+    max-width: 800px;
+    width: 800px;
+    height: auto;
+    margin-left: 38%;
+    margin-top: -28%;
+}
+
+.second-row {
+    margin-left: 13%;
+}
+
+.hexagon {
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 115.47px;
+    z-index: -1;
+    margin: 35px 5px 35px 5px;
+    /*background-image: url(hexPicOVerlay.png);*/
+    background-size: auto 230.9401px;
+    background-position: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+.Resume {
+    background-image: url(Images/hexes/hexResume.png);
+}
+
+.AP {
+    background-image: url(Images/hexes/hexAP.png);
+}
+
+.AshDev {
+    background-image: url(Images/hexes/hexAshDev.png);
+}
+
+.Icons {
+    background-image: url(Images/hexes/hexIcons.png);
+}
+
+.Lio {
+    background-image: url(Images/hexes/hexlio.png);
+}
+
+.Photos {
+    background-image: url(Images/hexes/hexPhotos.png);
+}
+
+.PS {
+    background-image: url(Images/hexes/hexPS.png);
+}
+
+.ServeIT {
+    background-image: url(Images/hexes/hexServeIT.png);
+}
+
+.Sketches {
+    background-image: url(Images/hexes/hexSketches.png);
+}
+
+.hexTop,
+.hexBottom {
+    position: absolute;
+    z-index: -1;
+    width: 141.42px;
+    height: 141.42px;
+    overflow: hidden;
+    -webkit-transform: scaleY(0.5774) rotate(-45deg);
+    -ms-transform: scaleY(0.5774) rotate(-45deg);
+    transform: scaleY(0.5774) rotate(-45deg);
+    background: inherit;
+    left: 29.062439px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+
+/*counter transform the bg image on the caps*/
+
+.hexTop:after,
+.hexBottom:after {
+    content: "";
+    position: absolute;
+    width: 200.0000px;
+    height: 115.47005383792516px;
+    -webkit-transform: rotate(45deg) scaleY(1.7321) translateY(-57.7350px);
+    -ms-transform: rotate(45deg) scaleY(1.7321) translateY(-57.7350px);
+    transform: rotate(45deg) scaleY(1.7321) translateY(-57.7350px);
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+    background: inherit;
+}
+
+.hexTop {
+    top: -70.7107px;
+}
+
+.hexTop:after {
+    background-position: center top;
+}
+
+.hexBottom {
+    bottom: -70.7107px;
+}
+
+.hexBottom:after {
+    background-position: center bottom;
+}
+
+.hexagon:after {
+    content: "";
+    position: absolute;
+    top: 0.0000px;
+    left: 0;
+    width: 200.0000px;
+    height: 115.4701px;
+    z-index: 2;
+    background: inherit;
+}
