@@ -9,14 +9,14 @@
 
 <body>
     <br>
-    <div class="col text">
+    <div class="col-1 text">
         <h1>Michael McDaniel</h1>
-        <h3>Front End Developer</h3>
-        <h3>Software Engineer</h3>
-        <h3>Web Designer</h3> </div>
+        <h3>Front&#95;End&#95;Developer</h3>
+        <h3>Software&#95;Engineer</h3>
+        <h3>Web&#95;Designer</h3> </div>
     <div class="container">
         <!--        <ul id="hexagons" class="clr">-->
-        <div class="col">
+        <div class="col-2">
             <div class="first-row">
                 <a href="otherPages/resume.html">
                     <div class="hexagon Resume">
@@ -78,8 +78,13 @@
                 </a>
             </div>
         </div>
-        <!--        </ul>-->
     </div>
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    $("div").click(function () {
+        window.location = $(this).find("a").attr("href");
+        return false;
+    });
+</script>
 
 </html>
