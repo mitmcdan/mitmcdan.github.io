@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <title>Python Practice</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet"> </head>
+<style>
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+</style>
+
+<body>
+    <h2>Python Practice</h2>
+    <p>For my classes at IU we have been taking several classes all done in Python, as such we have taken several tests and
+    small projects to practice and learn Python. These are examples of said code:</p>
+    
+</body>
+</html>
