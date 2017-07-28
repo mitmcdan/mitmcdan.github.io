@@ -6,6 +6,18 @@ body {
     overflow-x: hidden;
 }
 
+.row-1 {
+    width: 100%;
+    align-self: stretch;
+}
+
+.row-2 {
+    margin: 45px 14% 0 13%;
+    width: 800px;
+}
+
+
+/*
 .col-1 {
     max-width: 200px;
     float: left;
@@ -16,24 +28,19 @@ body {
     width: 800px;
     margin-right: 5%;
 }
-
-.text {
-    padding-top: 10%;
-    padding-left: 8%;
-    z-index: -30;
-}
+*/
 
 h1 {
     font-family: 'Allerta Stencil', sans-serif;
-    margin: 0 0 0 0;
-    font-size: 55px;
-    width: 35%;
+    margin: 0 35% 0 34%;
+    font-size: 48px;
+    width: 100%;
 }
 
 h3 {
     margin: 0 0 0 0;
     font-size: 30px;
-    width: 30%;
+    width: 100%;
 }
 
 h4 {
@@ -48,6 +55,11 @@ h4 {
     z-index: 2;
     position: relative;
     padding: 35px 10px 30px 20px;
+}
+
+p {
+    font-size: 25px;
+    margin: 0 25% 0 26%;
 }
 
 .container {
@@ -76,7 +88,7 @@ z-index: -10;
     /*background-image: url(hexPicOVerlay.png);*/
     background-size: auto 230.9401px;
     background-position: center;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    /*    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);*/
 }
 
 .hexagon a {
@@ -137,7 +149,7 @@ z-index: -10;
     transform: scaleY(0.5774) rotate(-45deg);
     background: inherit;
     left: 29.062439px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    /*    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);*/
 }
 
 
@@ -156,6 +168,11 @@ z-index: -10;
     -ms-transform-origin: 0 0;
     transform-origin: 0 0;
     background: inherit;
+}
+
+.hexTop,
+.hexBottom:hover {
+    box-shadow: 0 0 20px rgba(33, 33, 33, .6);
 }
 
 .hexTop {
@@ -183,4 +200,16 @@ z-index: -10;
     height: 115.4701px;
     z-index: 2;
     background: inherit;
+}
+
+.hexagon:hover {
+    box-shadow: 0 0 20px rgba(33, 33, 33, .6);
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
 }
