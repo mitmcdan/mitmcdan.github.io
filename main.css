@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background: #BDBDBD;
+/*     background: #BDBDBD; */
+    background: #fcfcfc;
     width: 100%;
     height: 100%;
     overflow-x: hidden;
