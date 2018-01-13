@@ -5,11 +5,6 @@ html {
 
 body {
     font-family: 'Roboto', sans-serif;
-    /*
-    background: #fcfcfc;
-width: 100%;
-height: 100%;
-*/
     overflow-x: hidden;
     background: url(Images/Michael-62edit.jpg) no-repeat top center fixed;
     background-size: cover;
@@ -80,18 +75,7 @@ height: 100%;
     z-index: -1;
 }
 
-.text-box {
-    background-color: #fcfcfc;
-    height: 400px;
-    width: 450px;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.8);
-    margin-top: 150px;
-    margin-left: 100px;
-    position: relative;
-    float: left;
-}
-
-.row-2 {
+.content {
     margin-top: 600px;
     position: relative;
     height: 100%;
@@ -100,10 +84,8 @@ height: 100%;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.8);
 }
 
-h1 {
-    color: dodgerblue;
-}
-
+h1,
+h2,
 h3 {
     color: dodgerblue;
 }
@@ -111,15 +93,16 @@ h3 {
 .about {
     position: relative;
     float: left;
+    max-width: 50%;
     margin: 0px 0px 10px 35px;
-    padding: 35px 5px 5px 5px;
+    padding: 20px 5px 5px 50px;
 }
 
 .skills {
     position: relative;
-    float: right;
+    float: left;
     margin: 0px 150px 10px 35px;
-    padding: 35px 5px 5px 5px;
+    padding: 20px 5px 5px 35px;
 }
 
 .skill {
@@ -128,22 +111,22 @@ h3 {
 
 .dot-array {}
 
-.dot {
+.dot-array .dot {
     position: relative;
     float: left;
     border-radius: 20px;
     background-color: dodgerblue;
     height: 10px;
     width: 20px;
-    margin: 3px 3px 3px 3px;
+    margin: 3px 6px 3px 0px;
 }
 
-.dot-empty {
-    position: relative;
+.dot-array .empty {
+    background-color: grey !important;
+}
+
+.about-more {
     float: left;
-    border-radius: 20px;
-    background-color: grey;
-    height: 10px;
-    width: 20px;
-    margin: 3px 3px 3px 3px;
+    margin: 0px 0px 10px 35px;
+    padding: 30px 5px 5px 5px;
 }
