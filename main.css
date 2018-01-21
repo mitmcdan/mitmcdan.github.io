@@ -13,7 +13,34 @@ body {
 }
 
 .row-2 {
-    margin-top: 45px;
+    margin-top: 25px;
+}
+
+.row-3 {}
+
+.buttonContainer {
+    margin: auto;
+    display: table;
+    position: relative;
+}
+
+.btn {
+    position: relative;
+    float: left;
+    color: white;
+    border-radius: 20px;
+    background-color: lightblue;
+    max-height: 15px;
+    max-width: 200px;
+    margin: 12px 10px 12px 10px;
+    padding: 12px 15px 15px 15px;
+}
+
+.btn:hover {
+    color: lightblue;
+    background-color: white;
+    border-width: 10px;
+    border-color: lightblue;
 }
 
 
