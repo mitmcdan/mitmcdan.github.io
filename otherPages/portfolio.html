@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <title>Michael McDaniel</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="portfolio.css"> </head>
+
+<body>
+    <!--Nav Start-->
+    <div class="nav">
+        <div class="name">
+            <a href="../index.html">
+                <div class="square">
+                    <p>M</p>
+                </div>
+                <div class="nav-title">Michael McDaniel</div>
+            </a>
+        </div>
+        <div class="nav-links">
+            <a href="resume.html">
+                <div class="btn">Resume</div>
+            </a>
+            <a href="portfolio.html">
+                <div class="btn">Portfolio</div>
+            </a>
+        </div>
+    </div>
+    <!--Nav End-->
+    <br>
+    <div class="content">
+        <div class="row">*Short description of past expierence for web* *Short description of past expierence for apps* </div>
+        <div class="row"> *Images/Links to websites created*</div>
+        <div class="row"> *Images/Links to apps created*</div>
+        <div class="row"> *Gallery or link to gallery*</div>
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    $("div").click(function () {
+        window.location = $(this).find("a").attr("href");
+        return false;
+    });
+</script>
+
+</html>

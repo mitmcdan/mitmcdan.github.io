@@ -6,7 +6,7 @@ html {
 body {
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
-    background: url(Images/Michael-62edit.jpg) no-repeat top center fixed;
+    background: url(../Images/Michael-25.jpg) no-repeat top center fixed;
     background-size: auto;
     margin: 0;
     padding: 0;
@@ -69,15 +69,8 @@ body {
     border-color: dodgerblue;
 }
 
-.row-1 .banner img {
-    height: auto;
-    width: auto;
-    position: fixed;
-    z-index: -1;
-}
-
 .content {
-    margin-top: 600px;
+    margin-top: 500px;
     position: relative;
     z-index: 1;
     height: auto;
@@ -92,50 +85,4 @@ h1,
 h2,
 h3 {
     color: dodgerblue;
-}
-
-.about {
-    position: relative;
-    font-size: 18px;
-    line-height: 30px;
-    float: left;
-    max-width: 55%;
-    margin: 0px 0px 10px 35px;
-    padding: 20px 5px 5px 50px;
-}
-
-.skills {
-    position: relative;
-    float: left;
-    margin: 0px 150px 10px 35px;
-    padding: 20px 5px 5px 35px;
-}
-
-.skill {
-    margin: 25px 5px 25px 5px;
-}
-
-.dot-array {}
-
-.dot-array .dot {
-    position: relative;
-    float: left;
-    border-radius: 20px;
-    background-color: dodgerblue;
-    height: 10px;
-    width: 20px;
-    margin: 3px 6px 3px 0px;
-}
-
-.dot-array .empty {
-    background-color: grey !important;
-}
-
-.about-more {
-    float: left;
-    max-width: 65%;
-    font-size: 18px;
-    line-height: 30px;
-    margin: 0px 0px 10px 80px;
-    padding: 30px 5px 5px 5px;
 }

@@ -1,259 +1,139 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
-    /*     background: #BDBDBD; */
-    background: #fcfcfc;
-    width: 100%;
-    height: 100%;
     overflow-x: hidden;
-}
-
-.row-1 {
+    background: url(Images/Michael-62edit.jpg) no-repeat top center fixed;
+    background-size: auto;
+    margin: 0;
+    padding: 0;
+    height: 100%;
     width: 100%;
-    align-self: stretch;
 }
 
-.row-2 {
-    margin-top: 25px;
+.nav {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
 }
 
-.row-3 {}
+.nav .nav-title {
+    font-size: 30px;
+    color: black;
+    float: left;
+    padding: 20px 10px 10px 10px;
+    font-family: 'Roboto Slab', serif;
+}
 
-.buttonContainer {
-    margin: auto;
-    display: table;
-    position: relative;
+.nav .square {
+    background-color: dodgerblue;
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin: 15px;
+}
+
+.nav .square p {
+    padding-left: 14px;
+    margin-top: 8px;
+    font-size: 25px;
+    color: white;
+    text-decoration: line-through;
+    font-family: 'Roboto Slab', serif;
 }
 
 .btn {
     position: relative;
-    float: left;
+    float: right;
     color: white;
     border-radius: 20px;
-    background-color: lightblue;
+    background-color: dodgerblue;
     max-height: 15px;
     max-width: 200px;
-    margin: 12px 10px 12px 10px;
+    margin: 17px 10px 12px 10px;
     padding: 12px 15px 15px 15px;
+    border-width: 15px;
+    border: solid;
 }
 
 .btn:hover {
-    color: lightblue;
+    color: dodgerblue;
     background-color: white;
-    border-width: 10px;
-    border-color: lightblue;
+    border-color: dodgerblue;
 }
 
-
-/*Not using col-1 and 2*/
-
-
-/*
-.col-1 {
-    max-width: 200px;
-    float: left;
+.content {
+    margin-top: 600px;
+    position: relative;
+    z-index: 1;
+    height: auto;
+    width: 100%;
+    background-color: #fcfcfc;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.8);
+    display: grid;
+    grid-template-rows: 500px;
 }
 
-.col-2 {
-    float: right;
-    width: 800px;
-    margin-right: 5%;
-}
-*/
-
-h1 {
-    font-family: 'Allerta Stencil', sans-serif;
-    /*    margin: 0 35% 0 34%;*/
-    font-size: 48px;
-    /*    width: 100%;*/
-    display: table;
-    margin: auto;
-}
-
+h1,
+h2,
 h3 {
-    /*    margin: 0 0 0 0;*/
-    margin: auto;
-    display: table;
-    font-size: 30px;
-    width: 100%;
+    color: dodgerblue;
 }
 
-
-/*Not using h4*/
-
-h4 {
-    display: block;
-    margin-top: 1.33em;
-    margin-bottom: 1.33em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: bold;
-    font-size: 28px;
-    color: #ffffff;
-    z-index: 2;
+.about {
     position: relative;
-    padding: 35px 10px 30px 20px;
+    font-size: 18px;
+    line-height: 30px;
+    float: left;
+    width: 55%;
+    margin: 0px 0px 10px 35px;
+    padding: 20px 5px 5px 50px;
 }
 
-p {
-    font-size: 25px;
-    /*    margin: 0 25% 0 26%;*/
-    display: table;
-    margin: auto;
-}
-
-.container {
-    display: table;
-    margin: auto;
-    /*
-    display: inline-block;
-max-width: 800px;
-width: 800px;
-height: auto;
-margin-left: 38%;
-margin-top: -28%;
-position: relative;
-z-index: -10;
-*/
-}
-
-.second-row {
-    margin-right: 16.6%;
-}
-
-.hexagon {
+.skills {
     position: relative;
-    float: right;
-    width: 200px;
-    height: 115.47px;
-    margin: 35px 5px 35px 5px;
-    /*background-image: url(hexPicOVerlay.png);*/
-    background-size: auto 230.9401px;
-    background-position: center;
-    /*    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);*/
+    float: left;
+    width: 25%;
+    margin: 15px 0px 10px 35px;
+    padding: 5px 5px 5px 50px;
 }
 
-.hexagon a {
-    display: block;
-    width: 100%;
-    height: 100%;
-    /*    text-indent: -9999em;*/
-    position: absolute;
-    top: 0;
-    left: 0;
+.skill {
+    margin: 25px 5px 25px 5px;
 }
 
-.Resume {
-    background-image: url(Images/hexes/hexResume.png);
+.skills .skill b {
+    color: grey;
 }
 
-.AP {
-    background-image: url(Images/hexes/hexAP.png);
+.dot-array {}
+
+.dot-array .dot {
+    position: relative;
+    float: left;
+    border-radius: 20px;
+    background-color: dodgerblue;
+    height: 10px;
+    width: 20px;
+    margin: 3px 6px 3px 0px;
 }
 
-.AshDev {
-    background-image: url(Images/hexes/hexAshDev.png);
+.dot-array .empty {
+    background-color: grey !important;
 }
 
-.Icons {
-    background-image: url(Images/hexes/hexIcons.png);
-}
-
-.Lio {
-    background-image: url(Images/hexes/hexlio.png);
-}
-
-.Photos {
-    background-image: url(Images/hexes/hexPhotos.png);
-}
-
-.Python {
-    background-image: url(Images/hexes/hexPython.png);
-}
-
-.ServeIT {
-    background-image: url(Images/hexes/hexServeIT.png);
-}
-
-.Sketches {
-    background-image: url(Images/hexes/hexSketches.png);
-}
-
-.hexTop,
-.hexBottom {
-    position: absolute;
-    z-index: -1;
-    width: 141.42px;
-    height: 141.42px;
-    overflow: hidden;
-    -webkit-transform: scaleY(0.5774) rotate(-45deg);
-    -ms-transform: scaleY(0.5774) rotate(-45deg);
-    transform: scaleY(0.5774) rotate(-45deg);
-    background: inherit;
-    left: 29.062439px;
-    /*    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);*/
-}
-
-
-/*counter transform the bg image on the caps*/
-
-.hexTop:after,
-.hexBottom:after {
-    content: "";
-    position: absolute;
-    width: 200.0000px;
-    height: 115.47005383792516px;
-    -webkit-transform: rotate(45deg) scaleY(1.7321) translateY(-57.7350px);
-    -ms-transform: rotate(45deg) scaleY(1.7321) translateY(-57.7350px);
-    transform: rotate(45deg) scaleY(1.7321) translateY(-57.7350px);
-    -webkit-transform-origin: 0 0;
-    -ms-transform-origin: 0 0;
-    transform-origin: 0 0;
-    background: inherit;
-}
-
-.hexTop,
-.hexBottom:hover {
-    box-shadow: 0 0 20px rgba(33, 33, 33, .6);
-}
-
-.hexTop {
-    top: -70.7107px;
-}
-
-.hexTop:after {
-    background-position: center top;
-}
-
-.hexBottom {
-    bottom: -70.7107px;
-}
-
-.hexBottom:after {
-    background-position: center bottom;
-}
-
-.hexagon:after {
-    content: "";
-    position: absolute;
-    top: 0.0000px;
-    left: 0;
-    width: 200.0000px;
-    height: 115.4701px;
-    z-index: 2;
-    background: inherit;
-}
-
-.hexagon:hover {
-    box-shadow: 0 0 20px rgba(33, 33, 33, .6);
-}
-
-
-/*Not using class centered*/
-
-.centered {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    /* bring your own prefixes */
-    transform: translate(-50%, -50%);
+.about-more {
+    float: left;
+    max-width: 65%;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0px 0px 10px 80px;
+    padding: 30px 5px 5px 5px;
 }
