@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <title>WordPress</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet"> </head>
+<style>
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    p img {
+        margin-bottom: 20px;
+    }
+    
+    p {
+        font-size: 17px;
+        max-width: 80%;
+/*        margin-left: 15%;*/
+        text-align: center;
+    }
+</style>
+
+<body>
+    <h3> My WordPress Developements </h3>
+    <p>
+        <br/> <img src="Resources/MockUps/TravelBlogSketch.jpg" width="80%" height="80%" />
+        <br/> <img src="Resources/MockUps/arsliaisonsketch1.png" width="80%" height="80%" />
+        <br/> <img src="Resources/MockUps/PortfolioHEXsketch1.png" width="80%" height="80%" />
+        <br/> <img src="Resources/MockUps/5hexSketch.png" width="80%" height="80%" /> </body>
+
+</html>
