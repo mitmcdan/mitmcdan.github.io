@@ -1,0 +1,74 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body embed {
+    height: 100%;
+    width: 100%;
+}
+
+.nav {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
+}
+
+.nav .nav-title {
+    font-size: 30px;
+    color: black;
+    float: left;
+    padding: 20px 10px 10px 10px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.nav .square {
+    background-color: dodgerblue;
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin: 15px;
+}
+
+.nav .square p {
+    padding-left: 14px;
+    margin-top: 8px;
+    font-size: 25px;
+    color: white;
+    text-decoration: line-through;
+    font-family: 'Roboto Slab', serif;
+}
+
+.btn {
+    position: relative;
+    float: right;
+    color: white;
+    border-radius: 20px;
+    background-color: dodgerblue;
+    max-height: 15px;
+    max-width: 200px;
+    margin: 17px 10px 12px 10px;
+    padding: 12px 15px 15px 15px;
+    border-width: 15px;
+    border: solid;
+}
+
+.btn:hover {
+    color: dodgerblue;
+    background-color: white;
+    border-color: dodgerblue;
+}
