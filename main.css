@@ -14,6 +14,10 @@ body {
     width: 100%;
 }
 
+body .portfolio-body {
+    background: url(Images/Michael-37.jpg) no-repeat top center fixed !important;
+}
+
 .nav {
     position: fixed;
     z-index: 2;
@@ -137,3 +141,10 @@ h3 {
     margin: 0px 0px 10px 80px;
     padding: 30px 5px 5px 5px;
 }
+
+.image {
+    height: auto;
+    width:
+}
+
+.hover-shadow {}
