@@ -6,12 +6,6 @@ html {
 body {
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
-    background: url(../Images/Michael-25.jpg) no-repeat top center fixed;
-    background-size: auto;
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
 }
 
 .nav {
