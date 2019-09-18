@@ -2,6 +2,8 @@
 <html lang='en'>
 
 <head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="newScrollIndex.css"> </head>
 </head>
 
 <body>
@@ -55,8 +57,11 @@
         //You can read more here: https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onscroll
         //Of course yourUmageElement should be replaced with the imge element you want to change. 
         var onScrollHandler = function () {
+            // default imaage for top of the page
             var newImageUrl = yourImageElement.src;
             var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+            // TODO: add an if for each link above with an image
+            // TODO: tinker with the scrollTop > x
             if (scrollTop > 100) {
                 newImageUrl = "img1.jpg"
             }
@@ -65,6 +70,9 @@
             }
             if (scrollTop > 300) {
                 newImageUrl = "img3.jpg"
+            }
+            if (scrollTop > 400) { 
+                newImageUrl = "img4.jpg"
             }
             yourImageElement.src = newImageUrl;
         };
