@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+</head>
+
+<body>
+
+    <!-- Are for text blocks -->
+    <div class="topTextArea">
+        <p>
+            Text Area
+        </p>
+        <p>
+            Text Area
+        </p>
+        <p>
+            Text Area
+        </p>
+    </div>
+    <!-- Area for Image list -->
+    <div class="imageList">
+        <div class="companyList">
+            <h3>Work Experience</h3>
+            <!-- <p>Tech consulting is an outlet for me to...</p> -->
+            <ul>
+                <li><a href="#" target="_blank"> Appirio </a></li>
+                <li><a href="#" target="_blank"> Serve IT </a></li>
+                <li><a href="#" target="_blank"> Crowe </a></li>
+                <li><a href="#" target="_blank"> Toohill </a></li>
+                <li><a href="#" target="_blank"> Tribeswell </a></li>
+                <li><a href="#" target="_blank"> Ash Brokerage </a></li>
+            </ul>
+        </div>
+        <div class="websiteList">
+            <h3>Web Design/Dev</h3>
+            <p>I occasionally builder websites as a freelancer, these are some of my works</p>
+            <ul>
+                <li><a href="https://www.strausercci.com/" target="_blank"> Strauser Construction </a></li>
+                <li><a href="https://blackvultureproject.org/" target="_blank"> Black Vulture Project </a></li>
+                <li><a href="https://housing4hoosiers.org/" target="_blank"> Housing 4 Hoosiers </a></li>
+                <li><a href="https://btowndentrepair.com" target="_blank"> Btown Dent Repiar </a></li>
+                <li><a href="https://helprestorationinc.com" target="_blank"> Help Restoration Roofing </a></li>
+                <li><a href="http://belovedtransportation.net/" target="_blank"> BeLoved Transportation </a></li>
+                <li><a href="https://dimensionmill.org/" target="_blank"> Dimension Mill </a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        //You can use the onScroll event to listen for scrolling, check at what position the scrollbar is and make the image change.
+        //You can read more here: https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onscroll
+        //Of course yourUmageElement should be replaced with the imge element you want to change. 
+        var onScrollHandler = function () {
+            var newImageUrl = yourImageElement.src;
+            var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+            if (scrollTop > 100) {
+                newImageUrl = "img1.jpg"
+            }
+            if (scrollTop > 200) {
+                newImageUrl = "img2.jpg"
+            }
+            if (scrollTop > 300) {
+                newImageUrl = "img3.jpg"
+            }
+            yourImageElement.src = newImageUrl;
+        };
+        object.addEventListener("scroll", onScrollHandler);
+    </script>
+</body>
+
+</html>
