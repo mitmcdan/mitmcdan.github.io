@@ -48,14 +48,18 @@
             </ul>
         </div>
     </div>
+    <!-- Large image in corner -->
     <div class="mainImage">
-        <img>
+        <!-- Personal Headshot -->
+        <img src="/Images/appirioHeadshot.jpg" width="400px" height="250px">
     </div>
+    <!-- Floating page cursor -->
+    <div class="pageCursor"></div>
 
     <script>
         //You can use the onScroll event to listen for scrolling, check at what position the scrollbar is and make the image change.
         //You can read more here: https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onscroll
-        //Of course yourUmageElement should be replaced with the imge element you want to change. 
+        //Of course yourImageElement should be replaced with the imge element you want to change. 
         var onScrollHandler = function () {
             // default imaage for top of the page
             var newImageUrl = yourImageElement.src;
@@ -64,6 +68,7 @@
             // TODO: tinker with the scrollTop > x
             if (scrollTop > 100) {
                 newImageUrl = "img1.jpg"
+                //Have company logo on a colored background?
             }
             if (scrollTop > 200) {
                 newImageUrl = "img2.jpg"
