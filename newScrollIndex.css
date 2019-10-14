@@ -1,0 +1,16 @@
+.mainImage {
+    height: 250px;
+    width: 400px;
+    border-radius: 25px;
+    right: 25px;
+    bottom: 25px;
+    position: absolute;
+}
+.pageCursor {
+    height: 10px;
+    width: 35px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
