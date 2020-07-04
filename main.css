@@ -179,7 +179,7 @@ h3 {
 
 .card:hover {
     opacity: 1;
-    box-shadow: 2px 5px 10px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 5px 10px 1px rgba(0, 0, 0, 0.4);
 }
 
 .equipment .container {
@@ -197,11 +197,13 @@ h3 {
     opacity: 0.8;
 }
 
-.equipment-cards {
-
-}
-
 .equipment .equipment-header {
     text-align: center;
     margin: 20px;
+}
+
+
+/* Footer Styling */
+.footer {
+    color: #ffffff;
 }
