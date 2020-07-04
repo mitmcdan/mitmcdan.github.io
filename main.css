@@ -122,6 +122,7 @@ h3 {
 /* Hero Styling */
 .jumbotron {
     background-image: url("/Images/gmapsinworkout.png");
+    background-repeat: no-repeat;
 }
 
 .hero {
@@ -136,15 +137,20 @@ h3 {
 }
 
 /* Card Styling */
+.card-grid {
+    margin-left: 20px;
+    margin-right:20px;
+}
 .card {
+    margin: 20px;
     opacity: .8;
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0);
     transition: 0.3s;
 }
 
 .card:hover {
     opacity: 1;
-    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.4);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.4);
 }
 
 .equipment h5 {
@@ -155,4 +161,9 @@ h3 {
     line-height: 28px;
     color: #34383c;
     opacity: 0.8;
+}
+
+.equipment .equipment-header {
+    text-align: center;
+    margin: 20px;
 }
