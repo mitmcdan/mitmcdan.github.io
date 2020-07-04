@@ -51,7 +51,7 @@ body {
     font-family: 'Roboto Slab', serif;
 }
 
-.nav-right .btn {
+ /* .btn {
     position: relative;
     float: right;
     color: white;
@@ -63,13 +63,13 @@ body {
     padding: 12px 15px 15px 15px;
     border-width: 15px;
     border: solid;
-}
+} */
 
-.btn:hover {
+/* .btn:hover {
     color: dodgerblue;
     background-color: white;
     border-color: dodgerblue;
-}
+} */
 
 h1,
 h2,
