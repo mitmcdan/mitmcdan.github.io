@@ -3,16 +3,14 @@ html {
     width: 100%;
 }
 
-/* body {
+body {
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
-    background: url(Images/Michael-62edit.jpg) no-repeat top center fixed;
-    background-size: auto;
     margin: 0;
     padding: 0;
     height: 100%;
     width: 100%;
-} */
+}
 
 /* body .portfolio-body {
     background: url(Images/Michael-37.jpg) no-repeat top center fixed !important;
@@ -53,7 +51,7 @@ html {
     font-family: 'Roboto Slab', serif;
 }
 
-.btn {
+.nav-right .btn {
     position: relative;
     float: right;
     color: white;
