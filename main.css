@@ -95,7 +95,7 @@ body {
     padding: 20px;
     float: none;
     position: relative;
-    transform: translate(-60%, -60%);
+    /* transform: translate(-60%, -60%); */
 }
 
 .nav-right {
@@ -144,7 +144,7 @@ h3 {
 
 .card:hover {
     opacity: 1;
-    box-shadow: 5px 10px 15px 10px rgba(0, 0, 0, 0.6);
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.4);
 }
 
 .equipment h5 {
