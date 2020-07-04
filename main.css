@@ -51,6 +51,10 @@ body {
     font-family: 'Roboto Slab', serif;
 }
 
+.top-spacer {
+    height: 50px;
+}
+
  /* .btn {
     position: relative;
     float: right;
