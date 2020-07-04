@@ -3,7 +3,7 @@ html {
     width: 100%;
 }
 
-body {
+/* body {
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
     background: url(Images/Michael-62edit.jpg) no-repeat top center fixed;
@@ -12,11 +12,11 @@ body {
     padding: 0;
     height: 100%;
     width: 100%;
-}
+} */
 
-body .portfolio-body {
+/* body .portfolio-body {
     background: url(Images/Michael-37.jpg) no-repeat top center fixed !important;
-}
+} */
 
 .nav {
     position: fixed;
@@ -73,78 +73,8 @@ body .portfolio-body {
     border-color: dodgerblue;
 }
 
-.content {
-    margin-top: 600px;
-    position: relative;
-    z-index: 1;
-    height: auto;
-    width: 100%;
-    background-color: #fcfcfc;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.8);
-    display: grid;
-    grid-template-rows: 500px;
-}
-
 h1,
 h2,
 h3 {
     color: dodgerblue;
 }
-
-.about {
-    position: relative;
-    font-size: 18px;
-    line-height: 30px;
-    float: left;
-    width: 55%;
-    margin: 0px 0px 10px 35px;
-    padding: 20px 5px 5px 50px;
-}
-
-.skills {
-    position: relative;
-    float: left;
-    width: 25%;
-    margin: 15px 0px 10px 35px;
-    padding: 5px 5px 5px 50px;
-}
-
-.skill {
-    margin: 25px 5px 25px 5px;
-}
-
-.skills .skill b {
-    color: grey;
-}
-
-.dot-array {}
-
-.dot-array .dot {
-    position: relative;
-    float: left;
-    border-radius: 20px;
-    background-color: dodgerblue;
-    height: 10px;
-    width: 20px;
-    margin: 3px 6px 3px 0px;
-}
-
-.dot-array .empty {
-    background-color: grey !important;
-}
-
-.about-more {
-    float: left;
-    max-width: 65%;
-    font-size: 18px;
-    line-height: 30px;
-    margin: 0px 0px 10px 80px;
-    padding: 30px 5px 5px 5px;
-}
-
-.image {
-    height: auto;
-    width: auto;
-}
-
-.hover-shadow {}
