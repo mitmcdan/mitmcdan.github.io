@@ -4,17 +4,17 @@ html {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Proxima Nova Lt';
     overflow-x: hidden;
     margin: 0;
     padding: 0;
     height: 100%;
     width: 100%;
-}
+    color: rgba(46, 49, 52, 0.8);
+    font-size: 14px;
+    font-weight: 600;
 
-/* body .portfolio-body {
-    background: url(Images/Michael-37.jpg) no-repeat top center fixed !important;
-} */
+}
 
 .nav {
     position: fixed;
@@ -26,61 +26,55 @@ body {
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
 }
 
+.product-nav {
+    height: 46px;
+    width: 100%;
+    border-bottom: solid 5px rgba(46, 49, 52, 0.4);
+}
+
+.product-nav a{
+    padding: 30px;
+    color: rgba(46, 49, 52, 0.8);
+    border-right: solid 5px rgba(46, 49, 52, 0.4);
+}
+
+.nav-image {
+    height: auto;
+    width: auto;
+    margin: auto;
+}
+
+.nav-left {
+    float:left;
+    margin: 20px;
+}
+
+.nav-middle {
+    text-align: center;
+}
+
+.nav-middle a {
+    padding: 30px;
+}
+
 .nav-right {
     float:right;
-}
-
-.nav .nav-title {
-    font-size: 30px;
-    color: black;
-    float: left;
-    padding: 20px 10px 10px 10px;
-    font-family: 'Roboto Slab', serif;
-}
-
-.nav .square {
-    background-color: dodgerblue;
-    height: 50px;
-    width: 50px;
-    float: left;
-    margin: 15px;
-}
-
-.nav .square p {
-    padding-left: 14px;
-    margin-top: 8px;
-    font-size: 25px;
-    color: white;
-    text-decoration: line-through;
-    font-family: 'Roboto Slab', serif;
+    margin: 20px;
 }
 
 .top-spacer {
     padding-top: 100px;
 }
 
- /* .btn {
-    position: relative;
-    float: right;
-    color: white;
-    border-radius: 20px;
-    background-color: dodgerblue;
-    max-height: 15px;
-    max-width: 200px;
-    margin: 17px 10px 12px 10px;
-    padding: 12px 15px 15px 15px;
-    border-width: 15px;
-    border: solid;
-} */
 
-/* .btn:hover {
-    color: dodgerblue;
-    background-color: white;
-    border-color: dodgerblue;
-} */
-
-h1,
-h2,
+/* Header Styles */
 h3 {
-    color: dodgerblue;
+    height: 14px;
+    color: rgba(46, 49, 52, 0.8);
+    font-family: "Proxima Nova Lt";
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 14px;
+    text-transform: uppercase;
 }
