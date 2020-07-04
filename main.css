@@ -42,7 +42,7 @@ body {
 }
 
 .nav a {
-    padding: 20px;
+    /* padding: 20px; */
     color: rgba(46, 49, 52, 0.8);
     font-size: 14px;
     font-weight: 600;
