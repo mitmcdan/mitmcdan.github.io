@@ -68,6 +68,7 @@ body {
 }
 
 .product-nav a{
+    padding: 10px, 20px, 10px, 20px;
     border-right: solid 2px #d5d6d6;
 }
 
@@ -95,8 +96,8 @@ body {
     float: none;
     position: relative;
     top: 30%;
-    left: 30%;
-    transform: translate(-30%, -30%);
+    left: 10%;
+    transform: translate(-50%, -50%);
 }
 
 .nav-right {
@@ -123,6 +124,16 @@ h3 {
 /* Hero Styling */
 .jumbotron {
     background-image: url("/Images/gmapsinworkout.png");
+}
+
+.hero {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.hero .btn {
+    padding: 15px, 45px, 15px, 45px;
 }
 
 /* Card Styling */
