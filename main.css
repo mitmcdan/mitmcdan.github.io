@@ -119,6 +119,13 @@ h3 {
     padding-top: 100px;
 }
 
+/* Button Stlying */
+.btn-primary {
+    background-color: #0069d2;
+    color: #ffffff;
+    border-color: #0069d2;
+}
+
 /* Hero Styling */
 .jumbotron {
     background-image: url("/Images/gmapsinworkout.png");
@@ -141,7 +148,6 @@ h3 {
     margin: 21px 82px 21px 82px;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.24), 0 0 1px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
-    background-color: #0069d2;
     /* Btn Font Styling: */
     color: #ffffff;
     font-size: 14px;
