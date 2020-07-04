@@ -72,14 +72,14 @@ body {
     border-right: solid 2px #d5d6d6;
 }
 
-.main-nav {
+/* .main-nav {
     width: 100%;
-}
+} */
 
 .nav-image {
     height: auto;
     width: auto;
-    margin: auto;
+    /* margin: auto; */
 }
 
 .nav-left a{
@@ -92,11 +92,12 @@ body {
 }
 
 .nav-middle a {
+    text-align: center;
     padding: 20px;
-    float: none;
-    position: relative;
+    /* float: none;
+    position: relative; 
     top: 50px;
-    /* transform: translate(-60%, -60%); */
+    transform: translate(-60%, -60%); */
 }
 
 .nav-right a{
@@ -135,6 +136,7 @@ h3 {
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
     background-size: 100% 100%;
+    opacity: 0.79;
 }
 
 .hero {
