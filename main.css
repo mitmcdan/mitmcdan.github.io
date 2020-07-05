@@ -24,6 +24,7 @@ body {
     .nav-left a{
         float:none;
         text-align: center;
+        padding-left: 100px;
     }
 
     .nav-right a{
@@ -31,13 +32,6 @@ body {
         display: block;
         text-align: center;
     }
-
-    /* .nav-middle a {
-        position: relative;
-        top: 0;
-        left: 0;
-        transform: none;
-    } */
 }
 
 /* Navigation Stlying Start */
@@ -52,7 +46,6 @@ body {
 }
 
 .nav a {
-    /* padding: 20px; */
     color: rgba(46, 49, 52, 0.8);
     font-size: 12px;
     font-weight: 700;
@@ -204,12 +197,14 @@ h3 {
     width: 50px;
     border-radius: 30px;
     opacity: 0.8;
+    z-index: 0;
 }
 
 .carousel-control-next-icon, .carousel-control-prev-icon {
     height: 30px;
     width: 30px;
     border-radius: 20px;
+    margin: 15px;
 }
 
 .carousel-item {
