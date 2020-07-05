@@ -21,12 +21,12 @@ body {
         text-align: center;
     }
     
-    .nav-left {
+    .nav-left a{
         float:none;
         text-align: center;
     }
 
-    .nav-right {
+    .nav-right a{
         float: none;
         display: block;
         text-align: center;
