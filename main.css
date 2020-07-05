@@ -114,7 +114,8 @@ body {
 h3 {
     height: 14px;
     color: rgba(46, 49, 52, 0.8);
-    font-family: "Proxima Nova Lt";
+    /* font-family: "Proxima Nova Lt"; */
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 1px;
@@ -158,6 +159,12 @@ h3 {
     font-size: 72px;
     letter-spacing: 1px;
     line-height: 90px;
+    /* Text Fade In */
+    opacity: 0;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -webkit-animation: fadein 2s;
+    -o-animation: fadein 2s;
 }
 
 .hero .container {
@@ -380,4 +387,18 @@ h3 {
 .footer-legal .footer-copy span {
     color: #ffffff;
     padding: 20px 10px 20px 10px;
+}
+
+/* Browser Specific Styles */
+@keyframes fadein {
+    from { opacity:0; } to { opacity: 1; }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from { opacity:0; } to { opacity: 1; }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from { opacity:0; } to { opacity: 1; }
+}
+@-o-keyframes fadein { /* Opera */
+    from { opacity:0; } to { opacity: 1; }
 }

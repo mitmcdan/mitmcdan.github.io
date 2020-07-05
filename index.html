@@ -349,18 +349,7 @@
         $(document).ready(function () {
             $('#langauge-select').change(function () {
                 var lang = $('language-select :selected').text();
-                // If statement to check what is selected in dropdown then changing label to match
-                // if (lang == 'English') {
-                //     $('label[name="langauge-label"]').innerHTML = 'English';
-                // } else if (lang == 'French') {
-                //     $('label[name="langauge-label"]').innerHTML = 'French';
-                // } else if (lang == 'Spanish') {
-                //     $('label[name="langauge-label"]').innerHTML = 'Spanish';
-                // } else if (lang == 'Italian') {
-                //     $('label[name="langauge-label"]').innerHTML = 'Italian';
-                // } else {
-                //     $('label[name="langauge-label"]').innerHTML = 'English';
-                // }
+                // Changing label to match dropdown select
                 $('label[name="langauge-label"]').innerHTML = lang;
             });
         });
