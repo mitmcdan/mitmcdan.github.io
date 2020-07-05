@@ -51,15 +51,15 @@ body {
     text-transform: uppercase;
     vertical-align: middle;
     text-align: center;
-    float: left;
 }
 
 .nav a:hover {
-    color: black;
+    color: #000000;
 }
 
 .nav a:active {
-
+    color: #000000;
+    text-decoration: underline;
 }
 
 .product-nav {
@@ -70,16 +70,12 @@ body {
 .product-nav a {
     padding: 12px 40px 12px 40px;
     border-right: solid 1px #d5d6d6;
+    float: left;
 }
-
-/* .main-nav {
-    width: 100%;
-} */
 
 .nav-image {
     height: auto;
     width: auto;
-    /* margin: auto; */
 }
 
 .nav-left a{
@@ -163,7 +159,7 @@ h3 {
 }
 
 .hero .container {
-    margin-top: 8rem;
+    margin-top: 10rem;
 }
 
 .hero .btn {
@@ -199,6 +195,14 @@ h3 {
     /* box-shadow: 2px 5px 10px 1px rgba(0, 0, 0, 0.1); */
 }
 
+.card-body {
+    padding: .75rem;
+}
+
+.card-body .card-title {
+    margin-bottom: .5rem;
+}
+
 /* .equipment .cards .card-img-top {
     text-align: center;
     align-self: center;
@@ -230,15 +234,16 @@ h3 {
     width: auto;
     align-self: center;
     padding: 20px 10px 0px 10px;
+    margin-top: 20px;
 }
 
 .equipment h5 {
     text-align: center;
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: 0.3px;
     line-height: 28px;
-    color: #34383c;
+    color: #2e3134;
     opacity: 0.8;
 }
 
@@ -258,9 +263,13 @@ h3 {
 
 .footer-nav {
     padding: 30px 30px 30px 30px;
-    text-align: left;
+    text-align: center;
     font-size: 12px;
     line-height: 25px;
+}
+
+.footer-nav div {
+    text-align: left;
 }
 
 .footer-socials .social-icons {
@@ -273,6 +282,7 @@ h3 {
 
 .footer-socials .social-icons a img{
     padding: 10px;
+    margin: 10px 0px 10px 0px;
     vertical-align: middle;
     align-self: center;
     display: inline-block;
@@ -284,12 +294,22 @@ h3 {
     background-color: #2e3134;
     color: #ffffff;
     float: left;
+    padding: 20px;
+}
+
+.dropdown #language-select {
+    color: #ffffff;
+    background-color: #2e3134;
 }
 
 .footer-legal .footer-copy {
     display: inline;
     /* display: inline-block; */
     text-align: center;
-    font-size: 10px;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.footer-legal .footer-copy a {
     color: #ffffff;
 }
