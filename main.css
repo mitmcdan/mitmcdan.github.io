@@ -163,6 +163,7 @@ h3 {
 
 .hero-text {
     /* Text Fade In */
+    opacity: 1;
     animation: fadein 2s;
     -moz-animation: fadein 2s;
     -webkit-animation: fadein 2s;
