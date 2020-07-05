@@ -91,10 +91,6 @@ body {
 .nav-middle a {
     text-align: center;
     padding: 29px 20px 29px 20px;
-    /* float: none;
-    position: relative; 
-    top: 50px;
-    transform: translate(-60%, -60%); */
 }
 
 .nav-right a{
@@ -186,7 +182,7 @@ h3 {
     max-height: 300px;
 }
 
-.testimonials .carousel-controls {
+.carousel, .carousel-inner, .carousel-item {
     background-color: #f4f5f7;
     text-align: center;
 }
