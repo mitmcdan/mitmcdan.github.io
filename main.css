@@ -136,7 +136,7 @@ h3 {
 }
 
 /* Hero Styling */
-.jumbotron {
+.jumbotron-fluid {
     background-image: url("/Images/gmapsinworkout.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -165,8 +165,8 @@ h3 {
 }
 
 .hero .btn {
-    padding: 15px 45px 15px 45px;
-    margin: 21px 122px 21px 122px;
+    margin: 20px 0px 20px 0px;
+    padding: 21px 122px 21px 122px;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.24), 0 0 1px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
     /* Btn Font Styling: */
@@ -176,6 +176,13 @@ h3 {
     letter-spacing: 1px;
     line-height: 14px;
     text-transform: uppercase;
+}
+
+/* Testimonial Styling */
+.testimonials {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
 }
 
 /* Card Styling */
