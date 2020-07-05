@@ -136,7 +136,7 @@ h3 {
 }
 
 /* Hero Styling */
-.jumbotron-fluid {
+.jumbotron {
     background-image: url("/Images/gmapsinworkout.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -145,6 +145,7 @@ h3 {
     -o-background-size: 100% 100%;
     background-size: 100% 100%; */
     background-color: #000000 !important;
+    margin-bottom: 0px;
 }
 
 .hero {
@@ -183,6 +184,15 @@ h3 {
     width: 100%;
     height: auto;
     max-height: 300px;
+}
+
+.testimonials .carousel-controls {
+    background-color: #f4f5f7;
+    text-align: center;
+}
+
+.carousel-item {
+    text-align: center;
 }
 
 /* Card Styling */
