@@ -68,7 +68,7 @@ body {
 }
 
 .product-nav a{
-    padding: 10px, 20px, 10px, 20px;
+    padding: 16px 40px 16px 40px;
     border-right: solid 2px #d5d6d6;
 }
 
@@ -93,7 +93,7 @@ body {
 
 .nav-middle a {
     text-align: center;
-    padding: 20px;
+    padding: 29px 20px 29px 20px;
     /* float: none;
     position: relative; 
     top: 50px;
@@ -102,6 +102,16 @@ body {
 
 .nav-right a{
     float:right;
+    margin: 17px 0px 19px 0px;
+}
+
+.nav-right .btn {
+    padding: 11px 15px 9px 16px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    line-height: 16px;
+    text-transform: capitalize;
 }
 
 /* Header Styles */
@@ -142,6 +152,7 @@ h3 {
 
 .hero {
     width: 100%;
+    height: auto;
     max-height: 50rem;
     min-height: 40rem;
     text-align: center;
@@ -158,7 +169,7 @@ h3 {
 
 .hero .btn {
     padding: 15px 45px 15px 45px;
-    margin: 21px 82px 21px 82px;
+    margin: 21px 122px 21px 122px;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.24), 0 0 1px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
     /* Btn Font Styling: */
