@@ -146,14 +146,14 @@ h3 {
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
     background-size: 100% 100%;
-    background-color: #000000;
+    background-color: #000000 !important;
 }
 
 .hero {
     width: 100%;
     height: auto;
-    max-height: 50rem;
-    min-height: 40rem;
+    max-height: 70rem;
+    min-height: 50rem;
     text-align: center;
     color: #ffffff;
     font-weight: 600;
@@ -266,8 +266,8 @@ h3 {
 .footer-socials .social-icons {
     text-align: center;
     padding: 10px;
-    border-top: solid 1px #d5d6d6;
-    border-bottom: solid 1px #d5d6d6;
+    border-top: solid 1px #585a5d;
+    border-bottom: solid 1px #585a5d;
     width: 100%;
 }
 
@@ -280,7 +280,16 @@ h3 {
     height: 50px;
 }
 
+.dropdown {
+    background-color: #2e3134;
+    color: #ffffff;
+    float: left;
+}
+
 .footer-legal .footer-copy {
-    display: inline-block;
+    display: inline;
+    /* display: inline-block; */
     text-align: center;
+    font-size: 10px;
+    color: #ffffff;
 }
