@@ -206,9 +206,14 @@ h3 {
     margin-bottom: .25rem;
 }
 
+.card-body .card-text {
+    font-size: 10px;
+    line-height: 12px;
+}
+
 .card-body .card-text .card-symbol {
-    width: 16px;
-    height: 16px;
+    width: 12px;
+    height: 12px;
 }
 
 .mini-icon {
@@ -231,13 +236,13 @@ h3 {
     padding: 0px 0px 30px 0px;
 }
 
-.equipment .container {
+.equipment {
     margin: 30px 30px 30px 30px;
 }
 
 .equipment-cards .card {
-    width: 19rem;
-    height: 19rem;
+    width: 20rem;
+    height: auto;
     margin: 0px 15px 0px 15px;
 }
 
@@ -261,7 +266,7 @@ h3 {
 
 .equipment .equipment-header h5{
     text-align: center;
-    margin: 20px 20px 10px 20px;
+    margin: 50px 20px 10px 20px;
     font-size: 1.3rem;
 }
 
