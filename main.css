@@ -17,6 +17,10 @@ body {
 
 /* Mobile Stlying */
 @media screen and (max-width: 600px) {
+    .main-nav {
+        text-align: center;
+    }
+    
     .nav-left {
         float:none;
         text-align: center;
