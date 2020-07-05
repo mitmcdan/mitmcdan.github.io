@@ -141,7 +141,7 @@ h3 {
     -o-background-size: 100% 100%;
     background-size: 100% 100%; */
     background-color: #000000 !important;
-    margin-bottom: 0px;
+    margin-bottom: 0px !important;
 }
 
 .hero {
@@ -187,8 +187,15 @@ h3 {
     text-align: center;
 }
 
+.carousel-control-next-icon {
+    box-shadow: 0 7px 12px rgba(46, 49, 52, 0.3);
+    background-color: #000c28;
+    opacity: 0.8;
+}
+
 .carousel-item {
     text-align: center;
+    margin: 25px;
 }
 
 /* Card Styling */
