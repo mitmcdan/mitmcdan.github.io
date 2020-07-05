@@ -196,15 +196,16 @@ h3 {
 .carousel-control-next-icon {
     box-shadow: 0 7px 12px rgba(46, 49, 52, 0.3);
     background-color: #000c28 !important;
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
     border-radius: 20px;
     opacity: 0.8;
 }
 
 .carousel-item {
     text-align: center;
-    margin: 25px;
+    margin: 25px 0px 25px 0px;
+    padding: 50px;
 }
 
 /* Card Styling */
@@ -257,12 +258,6 @@ h3 {
     width: 28px;
     height: 28px;
 }
-
-/* .equipment .cards .card-img-top {
-    text-align: center;
-    align-self: center;
-    padding: 20px;
-} */
 
 .card:hover {
     opacity: 1;
