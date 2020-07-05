@@ -286,8 +286,8 @@ h3 {
     vertical-align: middle;
     align-self: center;
     display: inline-block;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
 }
 
 .dropdown {
@@ -300,6 +300,7 @@ h3 {
 .dropdown #language-select {
     color: #ffffff;
     background-color: #2e3134;
+    border: none;
 }
 
 .footer-legal .footer-copy {
@@ -310,6 +311,7 @@ h3 {
     color: #ffffff;
 }
 
-.footer-legal .footer-copy a {
+.footer-legal .footer-copy span {
     color: #ffffff;
+    padding: 20px 10px 20px 10px;
 }
