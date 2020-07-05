@@ -74,18 +74,14 @@
                     <img src="Images/Testimonial Images/slide3.png" class="carousel-slide" alt="">
                 </div>
             </div>
-            <div class="icon-backdrop">
                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="carousel-control-prev-icon" aria-hidden="true"><div class="icon-backdrop"></div></span>
                     <span class="sr-only">Previous</span>
                 </a>
-            </div>
-            <div class="icon-backdrop">
                 <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="carousel-control-next-icon" aria-hidden="true"><div class="icon-backdrop"></div></span>
                     <span class="sr-only">Next</span>
                 </a>
-            </div>
         </div>
     </div>
     <!-- Second Row End -->
@@ -273,22 +269,25 @@
         <!-- Footer Navigation Links -->
         <div class="footer-nav row">
             <!-- Extra Column for Spacing -->
-            <div class="col-md-1 col-lg-2"></div>
-            <div class="footer-nav-1 col-sm-3 col-md-3 col-lg-3">
+            <div class="col-md-2 col-lg-2"></div>
+            <div class="footer-nav-1 col-3">
                 <a href="#"><b>Company</b></a>
                 <br><a href="#">About</a>
                 <br><a href="#">Contact Us</a>
                 <br><a href="#">Careers</a>
+                <br>
             </div>
-            <div class="footer-nav-2 col-sm-3 col-md-3 col-lg-3">
+            <div class="footer-nav-2 col-3">
                 <a href="#"><b>Account</b></a>
                 <br><a href="#">Log In</a>
                 <br><a href="#">Create Account</a>
+                <br>
             </div>
-            <div class="footer-nav-3 col-sm-3 col-md-3 col-lg-3">
+            <div class="footer-nav-3 col-3">
                 <b><a href="#">Support</b></a>
                 <br><a href="#">Help Center</a>
                 <br><a href="#">Accessibility</a>
+                <br>
             </div>
         </div>
         <!-- Social Bar -->
@@ -314,13 +313,13 @@
         <div class="footer-legal row">
             <!-- Language Dropdown -->
             <div class="dropdown col-sm-12 col-md-3 col-lg-3">
-                <label for="language-select">English</label>
+                <label for="language-select" id="langauge-label">English</label>
 
                 <select name="language-select" id="language-select">
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
+                    <option selected value="English">English</option>
+                    <option value="French">French</option>
+                    <option value="Spanish">Spanish</option>
+                    <option value="Italian">Italian</option>
                 </select>
             </div>
             <!-- Legal Text -->
@@ -346,7 +345,23 @@
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
     <script>
-
+        $(document).ready(function() {
+            $('#langauge-select').change(function() {
+                var lang = $('language-select :selected').text();
+                // If statement to check what is selected in dropdown then changing label to match
+                if (lang == 'English') {
+                    $('label[name="langauge-label"]').innerHTML = 'English';
+                } else if (lang == 'French') {
+                    $('label[name="langauge-label"]').innerHTML = 'French';
+                } else if (lang == 'Spanish') {
+                    $('label[name="langauge-label"]').innerHTML = 'Spanish';
+                } else if (lang == 'Italian') {
+                    $('label[name="langauge-label"]').innerHTML = 'Italian';
+                } else {
+                    $('label[name="langauge-label"]').innerHTML = 'English';
+                }
+            });
+        });
     </script>
 </body>
 

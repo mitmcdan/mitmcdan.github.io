@@ -203,12 +203,9 @@ h3 {
 }
 
 .carousel-control-next-icon, .carousel-control-prev-icon {
-    box-shadow: 0 7px 12px rgba(46, 49, 52, 0.3);
-    background-color: #000c28 !important;
     height: 30px;
     width: 30px;
     border-radius: 20px;
-    opacity: 0.8;
 }
 
 .carousel-item {
