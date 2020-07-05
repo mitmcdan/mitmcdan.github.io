@@ -332,6 +332,7 @@ h3 {
     color: #ffffff;
     float: left;
     padding: 20px;
+    text-align: center;
 }
 
 .dropdown #language-select {
@@ -341,7 +342,7 @@ h3 {
 }
 
 .footer-legal .footer-copy {
-    display: inline-block;
+    display: inline;
     text-align: center;
     vertical-align: middle;
     font-size: 12px;
