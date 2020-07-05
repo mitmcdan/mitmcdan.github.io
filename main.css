@@ -229,7 +229,7 @@ h3 {
     height: 12rem;
     width: auto;
     align-self: center;
-    padding: 20px 10px -5px 10px;
+    padding: 20px 10px 0px 10px;
 }
 
 .equipment h5 {
@@ -258,9 +258,9 @@ h3 {
 
 .footer-nav {
     padding: 30px 30px 30px 30px;
-    text-align: center;
-    font-size: 10px;
-    line-height: 12px;
+    text-align: left;
+    font-size: 12px;
+    line-height: 25px;
 }
 
 .footer-socials .social-icons {
@@ -275,4 +275,12 @@ h3 {
     padding: 10px;
     vertical-align: middle;
     align-self: center;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
+.footer-legal .footer-copy {
+    display: inline-block;
+    text-align: center;
 }
