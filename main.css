@@ -16,19 +16,25 @@ body {
 }
 
 /* Mobile Stlying */
-/* @media screen and (max-width: 600px) {
-    .nav a, .nav-right {
-        float: none;
-        display: block;
+@media screen and (max-width: 600px) {
+    .nav-left {
+        float:none;
+        text-align: center;
     }
 
-    .nav-middle a {
+    .nav-right {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+
+    /* .nav-middle a {
         position: relative;
         top: 0;
         left: 0;
         transform: none;
-    }
-} */
+    } */
+}
 
 /* Navigation Stlying Start */
 
@@ -189,7 +195,10 @@ h3 {
 
 .carousel-control-next-icon {
     box-shadow: 0 7px 12px rgba(46, 49, 52, 0.3);
-    background-color: #000c28;
+    background-color: #000c28 !important;
+    height: 50px;
+    width: 50px;
+    border-radius: 20px;
     opacity: 0.8;
 }
 
@@ -316,7 +325,6 @@ h3 {
 
 .footer-nav {
     padding: 30px 30px 30px 30px;
-    text-align: -webkit-center;
     font-size: 12px;
     line-height: 25px;
 }
