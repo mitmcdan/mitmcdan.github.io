@@ -196,7 +196,7 @@ h3 {
 }
 
 .card-body {
-    padding: .25rem;
+    padding: .75rem !important;
     font-size: 16px;
     font-weight: 700;
     line-height: 18px;
@@ -212,8 +212,14 @@ h3 {
 }
 
 .card-body .card-text .card-symbol {
-    width: 12px;
-    height: 12px;
+    width: 10px;
+    height: 10px;
+}
+
+.card-link { 
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 10px;
 }
 
 .mini-icon {
@@ -241,7 +247,7 @@ h3 {
 }
 
 .equipment-cards .card {
-    width: 20rem;
+    width: 19rem;
     height: auto;
     margin: 0px 15px 0px 15px;
 }
@@ -266,7 +272,7 @@ h3 {
 
 .equipment .equipment-header h5{
     text-align: center;
-    margin: 50px 20px 10px 20px;
+    margin: 40px 20px 20px 20px;
     font-size: 1.3rem;
 }
 
