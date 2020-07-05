@@ -159,8 +159,10 @@ h3 {
     font-size: 72px;
     letter-spacing: 1px;
     line-height: 90px;
+}
+
+.hero-text {
     /* Text Fade In */
-    opacity: 0;
     animation: fadein 2s;
     -moz-animation: fadein 2s;
     -webkit-animation: fadein 2s;
