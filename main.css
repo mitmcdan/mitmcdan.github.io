@@ -83,7 +83,7 @@ body {
 
 .nav-left a{
     float:left;
-    padding: 20px;
+    margin: 20px;
 }
 
 .nav-middle {
