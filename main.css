@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif !important;
     overflow-x: hidden;
     margin: 0;
     padding: 0;
@@ -119,7 +119,7 @@ h3 {
     height: 14px;
     color: rgba(46, 49, 52, 0.8);
     /* font-family: "Proxima Nova Lt"; */
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif !important;
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 1px;
