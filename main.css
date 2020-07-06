@@ -22,20 +22,19 @@ body {
     }
     
     .nav-left a{
-        float:none;
+        float:none !important;
         text-align: center;
         padding-left: 100px;
     }
 
     .nav-right a{
-        float: none;
+        float: none !important;
         display: block;
         text-align: center;
     }
 }
 
 /* Navigation Stlying Start */
-
 .nav {
     position: relative;
     z-index: 2;
