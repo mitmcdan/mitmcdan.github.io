@@ -21,15 +21,16 @@ body {
         text-align: center;
     }
     
+    .nav-left {
+        padding-top: 15px;
+    }
     .nav-left a{
         float:none !important;
         text-align: center;
-        padding-left: 100px;
     }
 
     .nav-right a{
         float: none !important;
-        display: block;
         text-align: center;
     }
 }
@@ -160,7 +161,7 @@ h3 {
     line-height: 90px;
 }
 
-.hero-text {
+.hero-text, .hero .btn {
     /* Text Fade In */
     opacity: 1;
     animation: fadein 2s;
