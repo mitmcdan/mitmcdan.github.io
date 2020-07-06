@@ -33,6 +33,10 @@ body {
         float: none !important;
         text-align: center;
     }
+
+    .nav-right a .btn {
+        margin: 15px;
+    }
 }
 
 /* Navigation Stlying Start */
